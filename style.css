@@ -1,0 +1,122 @@
+header {
+  background-color: #e7e6e6;
+}
+
+.header-ul li {
+  margin: 0px 12px;
+}
+
+.header-ul li a {
+  font-size: 13px;
+  color: #8b8a8a;
+}
+.btn-ex {
+  padding: 0;
+  width: 157px;
+  height: 32px;
+  border-radius: 41px;
+  border: transparent;
+  outline: transparent;
+
+  background: #fff;
+  font-weight: 500;
+
+  line-height: 29px;
+  margin: -0px 10px 0px 10px;
+  color: #4c74ed;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.banner{
+    background-color: #edf6ff;
+}
+.right-side-img{
+  position: relative;
+  overflow: hidden;
+}
+.left-side-content {
+  padding: 110px 0px 100px 41px;
+}
+.left-side-content .custom-btn {
+  background-color:#0d6efd ;
+  color: #fff;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+}
+.right-side-img img {
+  width: 480px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  top: -102px;
+  overflow: hidden;
+  left: 100px;
+  bottom: 0;
+}
+.jjf{
+  width: 70%;
+}
+.sds{
+  position: relative;
+}
+.sds::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 2px;
+  height: 3px;
+  width: 72px;
+  background: #9d8fec;
+}
+.iu {
+  color: #ad9aec;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.op-card {
+  background-color: #f9fcff;
+  box-shadow: 0px 0px 10px #ddd;
+  padding: 23px;
+}
+.op-card h4 {
+  font-size: 16px;
+}
+.op-card span {
+  background-color: #5252f0;
+  padding: 7px;
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 50% 50% 50% 0%;
+  margin-bottom: 19px;
+}
+.lk{
+  position: relative;
+}
+.lk::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 27px;
+  background: #5252f0;
+}
+.feature{
+  background: url(./video-img-template/service-patern.png) no-repeat;
+  background-position: left bottom;
+}
+footer{
+  background: linear-gradient(rgba(46, 63, 158, 0.777), rgba(46, 63, 158, 0.858)) ,url("/video-img-template/video-bg.jpg");
+  background-size: cover;
+  padding: 160px 0px;
+
+  margin-top: 20px;
+}
+.njk{
+  width: 60%;
+  margin: auto;
+  margin-top: -100px;
+}
