@@ -109,7 +109,7 @@ header {
   background-position: left bottom;
 }
 footer{
-  background: linear-gradient(rgba(46, 63, 158, 0.777), rgba(46, 63, 158, 0.858)) ,url(https://i.ibb.co/qMJXPc6/video-bg.jpg);
+  background: linear-gradient(rgba(46, 63, 158, 0.777), rgba(46, 63, 158, 0.858)) ,url("https://i.ibb.co/qMJXPc6/video-bg.jpg");
   background-size: cover;
   padding: 160px 0px;
 
