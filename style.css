@@ -170,18 +170,43 @@ header {
   background-color: #f9fcff;
   box-shadow: 0px 0px 10px #ddd;
   padding: 23px;
+  transition: .7s;
+  border-radius: 5px;
 }
 .op-card h4 {
   font-size: 16px;
 }
 .op-card span {
   background-color: #5252f0;
-  padding: 7px;
+  
   display: inline-block;
   color: #fff;
   font-size: 30px;
   border-radius: 50% 50% 50% 0%;
   margin-bottom: 19px;
+  transition: .7s;
+}
+.op-card p{
+  color: #000;
+}
+.op-card span i {
+  height: 50px;
+  width: 41px;
+  margin-left: 10px;
+  line-height: 52px;
+}
+.op-card:hover h4{
+  color: #fff !important;
+}
+.op-card:hover #jks{
+  color: #f9fcff;
+}
+.op-card:hover{
+  background: #4c74ed;
+}
+.op-card:hover span{
+  background-color: #fff;
+  color: #4c74ed;
 }
 .lk{
   position: relative;
@@ -194,6 +219,11 @@ header {
   height: 3px;
   width: 27px;
   background: #5252f0;
+  transition: .7s;
+}
+.op-card:hover .lk::after{
+  width: 50px;
+  background: #fff;
 }
 .feature{
   background: url(./video-img-template/service-patern.png) no-repeat;
@@ -210,4 +240,93 @@ footer{
   width: 60%;
   margin: auto;
   margin-top: -100px;
+}
+.mbv{
+  position: relative;
+}
+.mbv::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 237px;
+  right: 0;
+  height: 3px;
+  width: 16%;
+  background-color: #fff;
+}
+footer .njk h6{
+  font-size: 13px;
+}
+.animaation {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 45%;
+  margin-top: 10%;
+  transition: .5s;
+  position: relative;
+}
+.animaation span i{
+  color: #5252f0;
+  transition: .5s;
+}
+.animaation:hover{
+  background-color: #4c74ed;
+}
+.animaation:hover span i{
+  color: #fff;
+}
+.animaation::before{
+  content: "";
+  position: absolute;
+  border: 1px solid #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  animation-name: omar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.animaation::after{
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  height: 45px;
+  width: 45px;
+  animation-name: omar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes omar{
+ 
+  0%{
+    opacity: 0;
+    transform: scale(1);
+    
+  }
+  25%{
+    transform: scale(1.5);
+    opacity: 0.4;
+  }
+  50%{
+    transform: scale(1.7);
+    opacity: 0.7;
+  }
+  75%{
+    transform: scale(1.9);
+    opacity: 0.9;
+  }
+  100%{
+    transform: scale(2.1);
+    opacity: 0;
+  }
+
 }
